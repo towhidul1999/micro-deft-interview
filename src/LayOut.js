@@ -15,6 +15,9 @@ function LayOut(props) {
       <Link to="/addProduct">
         <li>Add Product</li>
       </Link>
+      <Link to="/searchProduct">
+        <li>Search Product</li>
+      </Link>
 
       <main>{props.children}</main>
     </div>
